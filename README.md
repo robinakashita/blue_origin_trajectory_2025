@@ -137,8 +137,8 @@ These values are broadly consistent with public descriptions of New Shepard flig
 
 The notebook generates several diagnostic plots, which can be exported (e.g., to a `figures/` directory) using `matplotlib.pyplot.savefig`:
 
-- **Altitude vs Time**
-![Altitude vs Time](figures/altitude_vs_time.png)
+- **Position vs Time**
+![Position vs Time](figures/position_vs_time.png)
 
 - **Speed vs Time**
 ![Speed vs Time](figures/speed_vs_time.png)
