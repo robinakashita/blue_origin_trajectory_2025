@@ -207,7 +207,7 @@ These values are broadly consistent with public descriptions of New Shepard flig
 
 ---
 
-## 7. References:
+## 7. References
 - [Blue Origin For the Benefit of Earth](https://www.blueorigin.com/new-shepard)
 - [SciPy](https://scipy.org/) and Matplotlib documentation are used for numerical integration and plotting
 - [Runge-Kutta method](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_225_Differential_Equations/03%3A_Numerical_Methods/3.03%3A_The_Runge-Kutta_Method) will be implemented to solve the differential equation
