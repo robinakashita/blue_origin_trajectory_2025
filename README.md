@@ -133,7 +133,7 @@ $$
 $$
 ##### Mass Flow Rate
 $$ 
-\dot{m} = -\frac{F(t)}{I_{Isp}g_0} 
+\dot{m} = -\frac{F(t)}{I_{sp}g_0} 
 $$ 
 
 ### 3.3. Split Up the 2nd-Order ODE into two  First Order ODE's
