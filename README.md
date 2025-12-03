@@ -1,4 +1,4 @@
-# Blue Origin–Style Suborbital Trajectory Simulation (Physics 360 Final Project)
+# Blue Origin Suborbital Trajectory Simulation (Physics 360 Final Project)
 
 This repository implements a numerical simulation of a Blue Origin–style suborbital ascent, coast, and descent trajectory, calibrated using publicly available parameters from the New Shepard flight on April 14, 2025. The simulation solves the coupled equations of motion for a vertically launched rocket with variable mass, atmospheric drag, and altitude-dependent gravity, and reproduces key characteristics of an ~11-minute suborbital flight to the Karman line.
 
