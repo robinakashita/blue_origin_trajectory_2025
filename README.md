@@ -33,15 +33,15 @@ The rocket is modeled as a point mass moving in the horizontal and vertical dire
 Newton's Second Law:
 
 $$
-m_{\rm cap}\,\frac{d^2 \vec{r}}{dt^2}
-\;=\;
-\underbrace{F(t)\,\hat{\jmath}}_{\displaystyle\mathbf F_{\rm thrust}}
-\;+\;
-\underbrace{\Bigl(-\tfrac12\,\rho(h)\,C_D\,A\,|\mathbf v|\,\mathbf v\Bigr)}_{\mathbf F_{\rm drag}}
-\;+\;
-\underbrace{\Bigl(+\tfrac12\,\rho(h)\,C_L\,A\,|\mathbf v|^2\,\hat{\jmath}\Bigr)}_{\mathbf F_{\rm lift}}
-\;+\;
-\underbrace{\Bigl(0,\,-m_{\rm cap}\,g(h)\Bigr)}_{\mathbf F_{\rm grav}}.
+m_{\rm cap}\\frac{d^2 \vec{r}}{dt^2}
+\=\
+\underbrace{F(t)\\hat{\jmath}}_{\displaystyle\mathbf F_{\rm thrust}}
+\+\
+\underbrace{\Bigl(-\tfrac12\\rho(h)C_DA\|\mathbf v|\\mathbf v\Bigr)}_{\mathbf F_{\rm drag}}
+\+\
+\underbrace{\Bigl(+\tfrac12\\rho(h)C_LA\|\mathbf v|^2\\hat{\jmath}\Bigr)}_{\mathbf F_{\rm lift}}
+\+\
+\underbrace{\Bigl(0, - m_{\rm cap}\ g(h)\Bigr)}_{\mathbf{F}_{\rm grav}}.
 $$
 
 $$
@@ -140,19 +140,19 @@ $$
 $$
 ##### Mass Flow Rate
 $$ 
-\dot{m} = -\frac{F(t)}{I_{\!sp}\,g_0} 
+\dot{m} = -\frac{F(t)}{I_{Isp}g_0} 
 $$ 
 
 #### 3. Split Up the 2nd-Order ODE into two  First Order ODE's
 ##### Acceleration in X-Direction:
 $$ 
-\dot{v_x} = -\frac{1}{2\,m_{\rm cap}}\,\rho(y)\,C_D\,A\;v\;v_x 
+\dot{v_x} = -\frac{1}{2m_{\rm cap}}\\rho(y)C_DAvv_x 
 $$ 
 ##### Acceleration in Y-Direction:
 $$ \dot{v_y} = \frac{F(t)}{m_{\rm cap}}
-   \;-\;g(y)
-   \;-\;\frac{1}{2\,m_{\rm cap}}\,\rho(y)\,C_D\,A\;v\;v_y
-   \;+\;\frac{1}{2\,m_{\rm cap}}\,\rho(y)\,C_L\,A\,v^2 
+   \-g(y)
+   \-\\frac{1}{2m_{\rm cap}}\\rho(y)C_DAvv_y
+   \+\\frac{1}{2m_{\rm cap}}\\rho(y)C_LAv^2 
 $$
    
 ---
@@ -175,7 +175,7 @@ The notebook computes and stores:
 
 From these, the code derives:
 
-- Maximum altitude),
+- Maximum altitude,
 - Maximum speed,
 - Booster separation time and altitude,
 - Time spent above the Karman line ($h \ge 100\\mathrm{km}$),
