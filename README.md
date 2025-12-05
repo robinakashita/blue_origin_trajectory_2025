@@ -190,7 +190,13 @@ These values are broadly consistent with public descriptions of New Shepard flig
 
 ---
 
-## 6. Figures
+## 6. Future Work
+
+In this simulation, engine cutoff and booster separation occur at the same time. However, in real suborbital flights, these events are separated by a short but important time interval. Future work will focus on identifying the actual duration between engine cutoff and booster separation to improve the accuracy and physical realism of the modeled trajectory. Incorporating a more precise staging timeline will allow for better calibration of velocity, altitude, and mass profiles during the ascent phase.
+
+---
+
+## 7. Figures
 
 - **Position vs Time**
   
@@ -207,7 +213,7 @@ These values are broadly consistent with public descriptions of New Shepard flig
 
 ---
 
-## 7. References
+## 8. References
 - [Blue Origin For the Benefit of Earth](https://www.blueorigin.com/new-shepard)
 - [SciPy](https://scipy.org/) and Matplotlib documentation are used for numerical integration and plotting
 - [Runge-Kutta method](https://math.libretexts.org/Courses/Monroe_Community_College/MTH_225_Differential_Equations/03%3A_Numerical_Methods/3.03%3A_The_Runge-Kutta_Method) will be implemented to solve the differential equation
